@@ -2,9 +2,20 @@ body {
   background-color: #F0FFFF;
 }
 
+.inturoduce {
+  width:300px;
+  height:150px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-top:-75px;
+  margin-left:-150px;
+  font: 30px caption;
+}
+
 .content {
   width:630px;
-  height:500px;
+  height:550px;
   border: solid 3px #436e70;
   position:absolute;
   left:50%;
