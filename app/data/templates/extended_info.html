@@ -8,9 +8,9 @@
     <p>{{apod.pub_date}}</p>
     <p>{{apod.explanation}}</p>
     {% if apod.media_type == 'image' %}
-      <img class='' src={{apod.image_url}} alt="">
+      <img class="ext_image" src={{apod.image_url}} alt="">
     {% elif apod.media_type == 'video' %}
-      <iframe src="{{apod.image_url}}" width="900" height="500"></iframe>
+      <iframe class="ext_video" src="{{apod.image_url}}" width="900" height="500"></iframe>
     {% endif %}
   </div>
 {% endblock %}
